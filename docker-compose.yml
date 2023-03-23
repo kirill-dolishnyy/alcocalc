@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+    alcobot:
+       build: .
+       container_name: alcobot
+       restart: on-failure
+
